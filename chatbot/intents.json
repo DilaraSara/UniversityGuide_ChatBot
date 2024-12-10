@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "ogrenim_ucreti",
+            "patterns": [ "Öğrenim Ücretimi nasıl yatırabilirim?" ],
+            "responses": [ "Öğrenim ücretinizi Öğrenci Numaranız ile Vakıfbank’ın Türkiye genelindeki tüm şubelerin ATM ve Mobil Bankacılık hizmetlerinden ücretsiz yatırabilirsiniz." ],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+            "patterns": [ "Öğrenim Ücretimi bulunduğum şehirden yatırabilir miyim?" ],
+            "responses": [ "Evet, öğrenim ücretinizi T.C. Kimlik Numaranız ile Türkiye Vakıflar Bankası'nın Türkiye genelindeki herhangi bir şubesine ait vezneden ücretsiz yatırabilirsiniz." ],
+         "context": [""]
+        },
+        {"tag": "Kayıt sırasında başka ücret talep edilmekte midir?",
+            "patterns": [ "Kayıt sırasında başka ücret talep edilmekte midir?" ],
+            "responses": [ "Hayır. II. Öğretim öğrencilerinin yatıracağı öğrenim harcı dışında hiçbir ücret talep edilmemektedir." ],
+         "context": [""]
+        },
+        {"tag": "query",
+            "patterns": [ "Yakınlarda yurt var mı? Hangi yurt var?" ],
+            "responses": [ "İl Merkezinde ve ilçelerde YURTKUR Bölge Müdürlüğüne ait yurtlar bulunmaktadır." ],
+         "context": [""]
+        },
+  {
+      "tag": "location_info",
+    "patterns": [ "E-Devlet üzerinden kayıt yaptırdım evraklarımı ne zaman ve nasıl teslim edeceğim?" ],
+    "responses": [ "E-Devlet üzerinden kayıt yaptıran öğrencilerimiz ders alma haftasında evraklarını yerleştikleri okullara teslim edeceklerdir." ],
+      "context": [""]
+    },
+    {
+      "tag": "weather",
+        "patterns": [ "E-Devlet üzerinden kaydımı yaptırdım. Öğrenci belgemi nasıl alabilirim?" ],
+        "responses": [ "E-Devlet üzerinden yaptırdığınız kaydınızı tamamladıktan sonra e-devlet üzerinden veya OBS üzerinden talepte bulunarak öğrenci belgesi alabilirsiniz." ],
+      "context": [""]
+    },
+  {
+      "tag": "technology",
+    "patterns": [ "Diploma, sertifika veya uzmanlık belgesini kaybettim 2.nüshayı nasıl alabilirim?" ],
+    "responses": [ "Diploma, geçici mezuniyet belgesi, sertifika veya uzmanlık belgesini kaybedenler, ulusal gazetelerin birine verilen kayıp ilan suretini eklediği dilekçe ile ilgili birime başvurur.Geçici mezuniyet belgesi verilmiş ise kaybedenlere diploması verilir. Tahribata uğraması nedeniyle orijinal şekil ile ibraz edilen diplomalar, sertifika ve uzmanlık belgeleri için de aynı yol izlenerek ikinci nüshaları verilir." ],
+      "context": [""]
+    },
+    {
+      "tag": "movies",
+        "patterns": [ "Yeni üye kaydı yaptım ama hala sisteme giremiyorum. Neden?" ],
+        "responses": [ "Üye kaydı yapıldıktan sonra sistem tarafından üye kayıt esnasında girdiğiniz e-posta adresine bir etkinleştirme kodu gönderilmektedir. Etkinleştirme işlemi yapılmadan sisteme giriş mümkün değildir. Öncelikle e-posta hesabınıza giderek size gönderilen etkinleştirme mesajındaki yönlendirmeleri takip ederek kullanıcı kaydınızı etkinleştiriniz." ],
+      "context": [""]
+    },
+    {
+      "tag": "food",
+        "patterns": [ "" ],
+        "responses": [ "Yüklenecek resim JPEG formatında olmalıdır. Dosya boyutu en az 3KB, en fazla 2MB olmalıdır." ],
+      "context": [""]
+    },
+   {
+  "tag": "sports",
+  "patterns": [
+    "Sisteme kaydoldum, etkinleştirme işlemini gerçekleştirdim, sisteme giriş yapıyorum ama başvuru yapamıyorum, neden?"
+  ],
+  "responses": [
+    "Sistemde yanlış bir kullanıcı türünde (örneğin personel veya koordinatör) hesabı açmış olabilirsiniz. Başvuru yapmak için sistemde \"giden\", \"öğrenci\", \"(outgoing student)\" olarak görünmelisiniz. Koordinatörlüğümüzle irtibata geçin (erasmus@beun.edu.tr)"
+  ],
+  "context": [""]
+}
+
+]}
